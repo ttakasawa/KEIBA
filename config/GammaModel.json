@@ -1,0 +1,19 @@
+{
+    "model": "baseline",
+    "out_dir": "log",
+
+    "data": {
+        "plti": "data/raw/plti/kplr_dr25_inj1_plti.txt",
+        "noise": "data/raw/misc/DR25_DEModel_NoisyTargetList.txt",
+
+        "features": ["Expected_MES"],
+
+        "ifs": true,
+        "pca": false,
+        "drop_noise": false
+    },
+
+    "a": 0.94,
+    "b": 30.87,
+    "c": 0.271
+}
